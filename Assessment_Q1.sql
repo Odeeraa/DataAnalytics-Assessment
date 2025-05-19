@@ -10,4 +10,4 @@ group by a.owner_id,concat(b.first_name," ",b.last_name)
 SELECT owner_id, name, savings_count, investment_count,total_deposits
 FROM cte
 where savings_count >0 and investment_count>0
-order by 4
+order by 5
